@@ -36,7 +36,7 @@ Use of source/executable files, with or without modification are permitted.
 - pickle      : pip install pickle5
 - numpy       : pip install numpy
 
-- Refer input folder for csv file format in case user prefer to use our executable file in exe_file folder
+- **Refer** input folder for csv file format in case user prefer to use our executable file in exe_file folder
 
 ### II. EXECUTABLE DEPLOYMENT
 
