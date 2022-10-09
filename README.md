@@ -46,7 +46,7 @@ or
 
 command: pyinstaller --noconfirm --onefile --windowed --icon "icon.ico" --add-data "logo.png"  iEdit.py
 
-- **Requirement:**
+**Requirement:**
 
 **1.** Pyinstaller:  pip install -U pyinstaller
 
