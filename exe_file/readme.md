@@ -1,4 +1,4 @@
-# Dowload link for the executable file
+# Dowload link for our executable file
 
 The executable file can be downloaded using the below link.
 
