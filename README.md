@@ -1,6 +1,6 @@
 # Python Scripts for creating Bounding Box Windows Executable Files
 
-This repository consist of a python scripts for creating Windows/linux or Mac graphical user interface (GUI) executable files that can be used to create single rectangular bounding box around 2D images from csv file with image paths. This GUI is particularly useful for easy annotation/bounding box creation of de-identified image data without annotators knowledge of image information. This type of annotator are regularly used for creating labels or ground truth bounding box in many object detaction algorithm in deep learning or machine learning models. The entire script can be runned using python. The needed packages for creating a custom changes in the program is detailed below.
+This repository consist of a python scripts for creating Windows/linux or Mac graphical user interface (GUI) executable files that can be used to create single rectangular bounding box around 2D images from csv file with image paths. For multiple rectangular box small changes needed to be made in base python script. This GUI is particularly useful for easy annotation/bounding box creation of de-identified image data without annotators knowledge of image information. This type of annotator are regularly used for creating labels or ground truth bounding box in many object detaction algorithm in deep learning or machine learning models. The entire script can be runned using python. The needed packages for creating a custom changes in the program is detailed below. Our exe file only a
 
 ![bounding_box_gui_app](https://user-images.githubusercontent.com/56223140/194733596-11f4e32c-aa8f-4fa6-9cf4-58921b759c5a.png)
 
@@ -52,4 +52,4 @@ command: pyinstaller --noconfirm --onefile --windowed --icon "icon.ico" --add-da
 
 **2.** Pyinstaller is to create executable file for windows/mac/linux. Note, this deployment step may fail in mac due to cv2 package does not support in mac. One has to replace cv2 commands in backend.py by other alternative packages such as PIL supported in mac.
 
-:+1: This repository is ready!
+:+1: Ready for use!
