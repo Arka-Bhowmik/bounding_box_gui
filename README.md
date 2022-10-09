@@ -7,7 +7,7 @@ This repository consist of a python scripts for creating Windows or Mac graphica
 
 The executable file can be created in two steps: 
 
-I. Base Pyton Script/Development Step
+I. Base Python Script/Development Step
 
 II. Executable Deployment Step
 
