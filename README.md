@@ -11,7 +11,7 @@ I. Base Python Script/Development Step
 
 II. Executable Deployment Step
 
-To create executable file without any custom changes refer (II. Executable Deployment Step without changes to provided script). However, in case of introducing user based custom changes in executable files all necessary modification needed to be made in (I. Base Pyton Script prior to II. Executable Deployment Step). 
+To create executable file without any custom changes refer (II. Executable Deployment Step without changes to provided script). Our executable file can be downloaded from the link provided in folder exe_file. However, in case of introducing user based custom changes in executable files all necessary modification needed to be made in (I. Base Pyton Script prior to II. Executable Deployment Step). 
 
 Use of source/executable files, with or without modification are permitted.
 
