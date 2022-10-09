@@ -21,8 +21,20 @@ Use of source/executable files, with or without modification are permitted.
 
 ### I. BASE PYTHON SCRIPT
 
+(a) iEdit.py   --->  This is the front end script that can be used for generating the executble GUI.
+
+(b) backend.py --->  This is a backend script. All necessary custom changes such as file system, app buttons, and app design has to be made in backend.py
 
 
+**Neccessary python libraries:**
+
+- tkinter     : pip install tk
+- Pillow      : pip install Pillow
+- pandas      : pip install pandas
+- csv         : pip install python-csv
+- cv2         : pip install opencv-python
+- pickle      : pip install pickle5
+- numpy       : pip install numpy
 
 ### II. EXECUTABLE DEPLOYMENT
 
