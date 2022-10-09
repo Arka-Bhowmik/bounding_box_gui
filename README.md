@@ -40,4 +40,8 @@ Use of source/executable files, with or without modification are permitted.
 
 command:  pyinstaller --onefile --windowed --icon=icon.ico --add-data "D:/gui/logo.png"  iEdit.py
 
-- Requirement:- Pyinstaller to create executable file for windows/mac/linux. Note, the below deployment step may fail in mac due to cv2 package does not work in mac.
+or
+
+command: pyinstaller --noconfirm --onefile --windowed --icon "icon.ico" --add-data "logo.png"  iEdit.py
+
+- Requirement:- Pyinstaller is to create executable file for windows/mac/linux. Note, this deployment step may fail in mac due to cv2 package does not support in mac. One has to replace cv2 commands in backend.py by other alternative packages such as PIL or scipy supports in mac.
